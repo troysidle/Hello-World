@@ -1,0 +1,53 @@
+
+
+/*--what is this?--*/
+  h1  {
+    color: #351837;
+    font-size: 6em;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: .3em;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+
+/*--This is the table itself--*/
+  table {
+    margin: .3em; /*This is the margin around the entire table.*/
+    width: 600px; /*This sets the width of the entire table.*/
+  }
+  
+
+/*--This is the table header only--*/
+  th {
+    padding: .9em;
+  }
+  
+
+/*--This is the table data only--*/
+  td {
+    background-color: #262945;      
+    font-family: Helvetica, sans-serif;
+    border: 2px solid #262945;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+/*--the table header--*/
+/*--the # (id selector) applies only to the header row--*/
+
+  #trHeader {
+    color: #879034;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+/*--the . (class selector) applies to all data rows--*/
+
+  .centerInCell {
+    text-align: center;
+  }
+
+  .leftInCell {
+    text-align: left;
+  }
