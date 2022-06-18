@@ -1,36 +1,45 @@
-
-
-/*--what is this?--*/
+/*--The main header on the page.--*/
   h1  {
     color: #351837;
-    font-size: 6em;
+    font-size: 5em;
     font-family: Helvetica, sans-serif;
     margin-bottom: .3em;
+    margin-left: 30px;
     text-align: left;
     text-decoration: none;
   }
   
+/*--The secondary header on the page.--*/
+  h2  {
+    color: #351837;
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: .3em;
+    margin-left: 30px;
+    text-align: left;
+    text-decoration: none;
+  }
 
 /*--This is the table itself--*/
   table {
-    margin: .3em; /*This is the margin around the entire table.*/
+    margin-left: 30px; /*This is the margin around the entire table.*/
     width: 600px; /*This sets the width of the entire table.*/
   }
   
 
 /*--This is the table header only--*/
   th {
-    padding: .9em;
+    padding:15px;
   }
   
 
 /*--This is the table data only--*/
   td {
-    background-color: #262945;      
+    background-color: #262945; 
+    color: #fcf4db;
     font-family: Helvetica, sans-serif;
-    border: 2px solid #262945;
-    padding-left: 1em;
-    padding-right: 1em;
+    border: 2px solid #dddddd;
+    padding: 15px;
   }
   
 /*--the table header--*/
@@ -40,6 +49,7 @@
     color: #879034;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
+    text-align: left;
   }
   
 /*--the . (class selector) applies to all data rows--*/
